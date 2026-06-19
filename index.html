@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="google-site-verification=txBomN10_XaqFO360ZwePQTFuFHmlNwef87ZPQzPlmU" />   
+<meta charset="UTF-8">
+
+<!-- 📱スマホ対応 -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>マイクラ ダイヤの見つけ方(y座標・効率採掘)</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#121212;
+    color:white;
+}
+
+/* ヘッダー */
+header{
+    background:#1e1e1e;
+    padding:20px;
+    text-align:center;
+    position:relative;
+}
+
+.login-btn{
+    position:absolute;
+    left:20px;
+    top:20px;
+}
+
+.search{
+    position:absolute;
+    right:20px;
+    top:20px;
+}
+
+.search input{
+    padding:10px;
+    border:none;
+    border-radius:20px;
+    background:#2a2a2a;
+    color:white;
+}
+
+/* ナビ */
+nav{
+    background:#252525;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:#4caf50;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+/* レイアウト */
+.layout{
+    display:flex;
+    max-width:1200px;
+    margin:20px auto;
+}
+
+aside{
+    width:250px;
+    background:#1e1e1e;
+    padding:15px;
+    border-radius:10px;
+    margin-right:15px;
+}
+
+main{
+    flex:1;
+}
+
+/* カード */
+.card{
+    background:#1e1e1e;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:15px;
+    box-shadow:0 0 10px rgba(76,175,80,0.3);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+/* ボタン */
+button{
+    background:#4caf50;
+    color:white;
+    border:none;
+    padding:10px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+/* コメント */
+textarea{
+    width:100%;
+    box-sizing:border-box;
+    background:#2a2a2a;
+    color:white;
+    border:1px solid #555;
+    padding:10px;
+}
+
+/* フッター */
+footer{
+    background:#1e1e1e;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+
+/* 📱スマホ対応 */
+@media screen and (max-width:768px){
+
+.layout{
+    flex-direction:column;
+}
+
+aside{
+    width:100%;
+    margin-right:0;
+    margin-bottom:15px;
+}
+
+header{
+    padding:15px;
+}
+
+.search{
+    position:static;
+    margin-top:10px;
+}
+
+.login-btn{
+    position:static;
+    margin-bottom:10px;
+}
+
+h1{
+    font-size:22px;
+}
+
+.card{
+    padding:15px;
+}
+
+nav a{
+    display:inline-block;
+    margin:8px;
+}
+
+button{
+    width:100%;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<button class="login-btn">👤 ログイン</button>
+
+<h1>⛏️ マイクラ攻略サイト</h1>
+<p>初心者から上級者まで完全攻略！</p>
+
+<div class="search">
+<input type="text" placeholder="🔍 攻略を検索">
+</div>
+
+</header>
+
+<nav>
+<a href="index.html">ホーム</a>
+<a href="diamond.html">💎ダイヤ攻略</a>
+<a href="nether.html">🔥ネザー攻略</a>
+<a href="dragon.html">🐉ドラゴン攻略</a>
+</nav>
+
+<div class="layout">
+
+<aside>
+
+<h3>📚 攻略カテゴリ</h3>
+<ul>
+<li><a href="beginner.html">🌱 初心者向け</a></li>
+<li><a href="diamond.html">💎 ダイヤ攻略</a></li>
+<li><a href="nether.html">🔥 ネザー攻略</a></li>
+<li><a href="dragon.html">🐉 エンド攻略</a></li>
+<li><a href="redstone.html">🔴 レッドストーン</a></li>
+</ul>
+
+<h3>⭐ 人気記事</h3>
+<ol>
+<li><a href="diamond.html">💎 ダイヤ攻略</a></li>
+<li><a href="dragon.html">🐉 ドラゴン攻略</a></li>
+<li><a href="netherite.html">⚔️ 最強装備</a></li>
+<li><a href="nether.html">🔥 ネザー攻略</a></li>
+<li><a href="village.html">👨‍🌾 村人交易</a></li>
+</ol>
+
+</aside>
+
+<main>
+
+<!-- サイト説明 -->
+<div class="card">
+<h2>📌 このサイトについて</h2>
+<p>
+このサイトはMinecraftの攻略情報をまとめたファンサイトです。
+ダイヤ・ネザー・ドラゴンなどの攻略方法をわかりやすく解説しています。
+</p>
+</div>
+
+<div class="card">
+<h2>📰 最新アップデート情報</h2>
+<p>Minecraftの最新アップデート情報を掲載中！</p>
+</div>
+
+<div class="card">
+<h2>💎 ダイヤ攻略</h2>
+<p>ダイヤの見つけ方はこちら！</p>
+<a href="diamond.html"><button>見る</button></a>
+</div>
+
+<div class="card">
+<h2>🔥 ネザー攻略</h2>
+<p>ネザー要塞やピグリン対策を解説！</p>
+<a href="nether.html"><button>見る</button></a>
+</div>
+
+<div class="card">
+<h2>🐉 ドラゴン攻略</h2>
+<p>エンダードラゴン討伐ガイド！</p>
+<a href="dragon.html"><button>見る</button></a>
+</div>
+
+<div class="card">
+<h2>⚔️ 最強装備</h2>
+<p>ネザライト装備とおすすめエンチャント。</p>
+</div>
+
+<!-- アフィリエイト枠 -->
+<div class="card">
+<h2>🎮 マイクラ快適プレイおすすめ環境</h2>
+
+<p>
+マイクラを快適にプレイするためのおすすめアイテムです。
+※紹介リンクを含みます
+</p>
+
+<ul>
+<li><a href="https://amzn.to/4eAnJ5g" target="_blank">👉 ゲーミングPCを見る</a></li>
+<li><a href="https://amzn.to/3QRPMFl" target="_blank">👉 ゲーミングマウス</a></li>
+<li><a href="https://amzn.to/4uJJbe8" target="_blank">👉 攻略本を見る</a></li>
+</ul>
+
+</div>
+
+<div class="card">
+<h2>📚 その他攻略記事</h2>
+
+<ul>
+<li><a href="village.html">👨‍🌾 村人交易攻略</a></li>
+<li><a href="enchant.html">✨ エンチャント完全ガイド</a></li>
+<li><a href="netherite.html">⚔️ ネザライト装備</a></li>
+<li><a href="beginner.html">🌱 初心者ガイド</a></li>
+<li><a href="redstone.html">🔴 レッドストーン入門</a></li>
+</ul>
+
+</div>
+
+
+<div class="card">
+<h2>💬 コメント</h2>
+
+<p>
+コメント機能は現在準備中です。
+今後のアップデートで追加予定です。
+</p>
+
+</div>
+
+</main>
+
+</div>
+
+<footer>
+
+<p>
+<a href="contact.html">📩 お問い合わせ</a>
+｜
+<a href="privacy.html">🔒 プライバシーポリシー</a>
+</p>
+
+<p>
+© 2026 マイクラ攻略サイト | このサイトはファンサイトです
+</p>
+
+</footer>
+
+</body>
+</html>
