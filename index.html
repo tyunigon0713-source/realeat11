@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="google-site-verification=txBomN10_XaqFO360ZwePQTFuFHmlNwef87ZPQzPlmU" />   
 <meta charset="UTF-8">
 
 <!-- 📱スマホ対応 -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>⛏️ マイクラ攻略サイト｜初心者向け完全ガイド</title>
+<title>マイクラ攻略サイト｜ダイヤ・ネザー・ドラゴン完全ガイド</title>
+
+<meta name="description"
+content="Minecraftの攻略情報を初心者向けに解説。ダイヤの探し方、ネザー攻略、エンダードラゴン討伐、村人交易、エンチャントまで完全ガイド。">
+
+<meta name="keywords"
+content="Minecraft,マイクラ,ダイヤ攻略,ネザー攻略,エンダードラゴン,村人交易,エンチャント,初心者向け">
 
 <style>
 
@@ -180,7 +185,8 @@ button{
 <p>初心者から上級者まで完全攻略！</p>
 
 <div class="search">
-<input type="text" placeholder="🔍 攻略を検索">
+<input type="text" id="searchBox" placeholder="🔍 攻略を検索">
+<button onclick="searchSite()">検索</button>
 </div>
 
 </header>
@@ -313,6 +319,34 @@ button{
 </p>
 
 </footer>
+
+<script>
+function searchSite() {
+
+  let q = document.getElementById("searchBox").value.toLowerCase();
+
+  if(q.includes("ダイヤ")) {
+    window.location.href = "diamond.html";
+  }
+
+  else if(q.includes("ネザー")) {
+    window.location.href = "nether.html";
+  }
+
+  else if(q.includes("ドラゴン")) {
+    window.location.href = "dragon.html";
+  }
+
+  else if(q.includes("エンチャント")) {
+    window.location.href = "enchant.html";
+  }
+
+  else {
+    alert("記事が見つかりませんでした");
+  }
+
+}
+</script>
 
 </body>
 </html>
